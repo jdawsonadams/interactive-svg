@@ -15,3 +15,13 @@
 #bear:hover #left-ear {
   transform: translateY(-15px);
 }
+
+@keyframes shift {
+
+  0% {
+    transform: translateX(5px);
+  }
+
+  50% {
+    transform: translateX(-5px);
+  }
